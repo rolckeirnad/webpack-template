@@ -26,8 +26,10 @@ In `package.json` were added the following scripts:
 ```
 ## Testing
 We can install the following dependencies to include testing:
+- jest
+- @babel/preset-env
 ```
-npm i -D Jest @babel/preset-env
+npm i -D jest @babel/preset-env
 ```
 
 Also we need to add a configuration file for `babel` called `.babelrc` in the project's root:
