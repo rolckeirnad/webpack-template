@@ -24,6 +24,17 @@ In `package.json` were added the following scripts:
     "build": "webpack --config webpack.prod.js"
   },
 ```
+## Testing
+We can install the following dependencies to include testing:
+```
+npm i -D Jest @babel/preset-env
+```
+
+Also we need to add a configuration file for `babel` called `.babelrc` in the project's root:
+```json
+{ "presets": ["@babel/preset-env"] }
+```
+
 # Usage
 
 Install dependencies:
